@@ -67,6 +67,7 @@ void Logging::logNeutral(char *text, ...) {
 
         tempP = &text[textPos];
 
+        ///TODO: continue here
         //Now we got an escape sequence at text[textPos]!
         //buffer = getCharFromEscSequence(tempP, (void*) &va_arg(args, int));
         //adjust int to depend on %* commands in the string
